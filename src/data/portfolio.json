@@ -1,0 +1,16 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/1/fmj.jpg",
+      "title": "Egen hemsida",
+      "description": "",
+      "url": "http://fotografmikaeljonsson.se"
+    },
+    {
+      "cover": "/portfolio/1/one.jpg",
+      "title": "Annat projekt",
+      "description": "React, JSX, Tailwind",
+      "url": "http://google.com"
+    }
+  ]
+}
