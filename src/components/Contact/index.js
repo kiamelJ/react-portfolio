@@ -43,14 +43,13 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+              strArray={'Kontakta mig'.split('')}
               idx={15}
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially ambitious or
-            large projects. However, if you have other request or question,
-            don't hesitate to contact me using below form either.
+            Jag är i dagsläget först och främst på jakt efter en LIA-plats där
+            jag kan få fördjupa mina kunskaper inom det jag läser bla lba lba.
           </p>
           <div className='contact-form'>
             <form ref={form} onSubmit={sendEmail}>
@@ -92,22 +91,20 @@ const Contact = () => {
         <div className='info-map'>
           Mikael Jonsson
           <br />
-          Sweden,
-          <br />
           Härbrevägen 42 <br />
           Örnsköldsvik <br />
-          <span>jogajoga@gmail.com</span>
+          <span>kiamel76@gmail.com</span>
         </div>
         <div className='map-wrap'>
           <MapContainer center={[63.31398, 18.76474]} zoom={13}>
             <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
             <Marker position={[63.31398, 18.76474]}>
-              <Popup>Mike lives here!</Popup>
+              {/* <Popup>Mike lives here!</Popup> */}
             </Marker>
           </MapContainer>
         </div>
       </div>
-      <Loader type='pacman' />
+      <Loader type='line-scale-pulse-out' />
     </>
   )
 }

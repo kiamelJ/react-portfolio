@@ -42,7 +42,7 @@ const Portfolio = () => {
                 <p className='title'>{port.title}</p>
                 <h4 className='description'>{port.description}</h4>
                 <button className='btn' onClick={() => window.open(port.url)}>
-                  View
+                  Visa
                 </button>
               </div>
             </div>
@@ -64,7 +64,7 @@ const Portfolio = () => {
         </h1>
         <div>{renderPortfolio(portfolioData.portfolio)}</div>
       </div>
-      <Loader type='pacman' />
+      <Loader type='line-scale-pulse-out' />
     </>
   )
 }

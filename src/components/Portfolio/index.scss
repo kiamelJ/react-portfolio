@@ -20,6 +20,7 @@
 
     .image-box {
         position: relative;
+        margin-left: 100px;
         flex: 1 1 20%;
         height: 400px;
         overflow: hidden;
@@ -86,7 +87,7 @@
 
         &:after {
             content: "";
-            background: linear-gradient(180deg, #ffd700, #000);
+            background: linear-gradient(180deg, #d4d4d4, #000);
             position: absolute;
             // Tror inte att det här bortkommenterade behövs. Enligt Sloba så ska det göra så att det täcker hela bakgrunden men det borde ju width och height sköta?
             // left: 0;

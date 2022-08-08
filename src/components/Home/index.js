@@ -1,35 +1,15 @@
-import { isEditable } from '@testing-library/user-event/dist/utils'
+// import { isEditable } from '@testing-library/user-event/dist/utils'
 import { useState, useEffect } from 'react'
 import Loader from 'react-loaders'
 import { Link } from 'react-router-dom'
-import LogoTitle from '../../assets/images/logo-s.png'
+// import LogoTitle from '../../assets/images/logo-s.png'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import Logo from './Logo'
+// import Logo from './Logo'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
-  const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
-
-  // Får inte det här att funka men skit i det för jag vill nog ändå inte ha det
-  // Osäker på om jag vill ha nån effekt alls här
   useEffect(() => {
     setTimeout(() => {
       return setLetterClass('text-animate-hover')
@@ -42,34 +22,37 @@ const Home = () => {
         <div className='text-zone'>
           <h1>
             <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i,</span>
+            <span className={`${letterClass} _11`}>e</span>
+            <span className={`${letterClass} _12`}>j,</span>
             <br />
-            <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m</span>
-            <img
+            <span className={`${letterClass} _13`}>M</span>
+            <span className={`${letterClass} _14`}>i</span>
+            <span className={`${letterClass} _15`}>t</span>
+            <span className={`${letterClass} _16`}>t</span>
+            {/* <img
               src={LogoTitle}
               alt='JavaScript Developer Name, Web Developer Name'
-            />
+            /> */}
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={nameArray}
-              idx={15}
+              strArray={' namn är'.split('')}
+              idx={17}
             />
             <br />
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={jobArray}
-              idx={22}
+              strArray={'Mikael Jonsson'.split('')}
+              idx={25}
             />
           </h1>
-          <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+          <h2>Nånting här / Nåt mer här / Hitta på ytterligare?</h2>
           <Link to='/contact' className='flat-button'>
-            CONTACT ME
+            KONTAKT
           </Link>
         </div>
-        <Logo />
+        {/* <Logo /> */}
       </div>
-      <Loader type='pacman' />
+      <Loader type='line-scale-pulse-out' />
     </>
   )
 }
