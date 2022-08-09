@@ -33,19 +33,20 @@ const About = () => {
             />
           </h1>
           <p>
-            Efter ett flertal år med lönehantering och personalfrågor inom
-            distribution så sadlar jag om och är nu inne på mitt andra år på
-            utbildningen Systemutvecklare.NET med AI-kompetens. SKA JAG ENS HA
-            MED DET HÄR??
+            Efter ett flertal år inom distribution med lönehantering och
+            personalfrågor på mitt bord så sadlar jag om och är nu inne på mitt
+            andra år på utbildningen Systemutvecklare.NET med AI-kompetens.
           </p>
           <p>
-            TA MED VAD MIN UTBILDNING HANDLAR OM??? HÄR SKA JAG FÅ MED NÅT HUR
-            JAG TAR MIG AN PROBLEM ELLER SÅ?? HUR JAG ÄR SOM UTVECKLARE?? HUR
-            SKULLE EN JUNIORA UTVECKLARE SKRIVA SOM??
+            Utbildningen innefattar bland annat C#, DevOps, JavaScript, React,
+            ASP.NET, Designmönster och arkitektur, Programmering av databaser
+            och SQL, Projektledning och Agil systemutveckling med SCRUM,
+            AI-komponenter och ML i MS Azure.
           </p>
           <p>
-            På fritiden är det familjen, träning och fotografering som gäller
-            för det mesta. KAN SKRIVAS BÄTTRE
+            Även om den mesta tiden just nu går till studier så måste det även
+            finnas tid för annat i livet och då är det familjen, träning och
+            fotografering som gäller.
           </p>
         </div>
 

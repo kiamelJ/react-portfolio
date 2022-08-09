@@ -48,8 +48,8 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Jag är i dagsläget först och främst på jakt efter en LIA-plats där
-            jag kan få fördjupa mina kunskaper inom det jag läser bla lba lba.
+            Som ny i branchen håller man alla dörrar öppna så släng gärna iväg
+            ett meddelande i formuläret nedan så ser vi vad det leder till!
           </p>
           <div className='contact-form'>
             <form ref={form} onSubmit={sendEmail}>
