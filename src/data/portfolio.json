@@ -3,14 +3,20 @@
     {
       "cover": "/portfolio/1/fmj.jpg",
       "title": "Egen hemsida",
-      "description": "React",
+      "description": "React, FileZilla, Loopia",
       "url": "http://fotografmikaeljonsson.se"
     },
     {
-      "cover": "/portfolio/1/one.jpg",
-      "title": "Annat projekt",
-      "description": "React, JSX, Tailwind",
-      "url": "http://google.com"
+      "cover": "/portfolio/1/weatherapp.jpg",
+      "title": "Väderapp",
+      "description": "React, Firebase, GeoDBCities API, OpenWeather API ",
+      "url": "https://weatherapp-1e09c.web.app/"
+    },
+    {
+      "cover": "/portfolio/1/shoppingapp.jpg",
+      "title": "Handlingsapp",
+      "description": "React, Firebase, Firestore Database",
+      "url": "https://to-do-app-7ab40.web.app/"
     }
   ]
 }
