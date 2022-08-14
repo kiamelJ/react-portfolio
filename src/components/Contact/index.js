@@ -95,7 +95,7 @@ const Contact = () => {
           <br />
           Härbrevägen 42 <br />
           Örnsköldsvik <br />
-          <span>kiamel76@gmail.com</span>
+          <span>076-103 71 13</span>
         </div>
         <div className='map-wrap'>
           <MapContainer center={[63.31398, 18.76474]} zoom={13}>
