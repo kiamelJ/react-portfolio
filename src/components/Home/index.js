@@ -21,31 +21,31 @@ const Home = () => {
       <div className='container home-page'>
         <div className='text-zone'>
           <h1>
-            <span className={letterClass}>H</span>
+            {/* <span className={letterClass}>H</span>
             <span className={`${letterClass} _11`}>e</span>
             <span className={`${letterClass} _12`}>j,</span>
             <br />
             <span className={`${letterClass} _13`}>M</span>
             <span className={`${letterClass} _14`}>i</span>
             <span className={`${letterClass} _15`}>t</span>
-            <span className={`${letterClass} _16`}>t</span>
+            <span className={`${letterClass} _16`}>t</span> */}
             {/* <img
               src={LogoTitle}
               alt='JavaScript Developer Name, Web Developer Name'
             /> */}
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={' namn är'.split('')}
-              idx={17}
+              strArray={'Välkommen'.split('')}
+              idx={15}
             />
             <br />
-            <AnimatedLetters
+            {/* <AnimatedLetters
               letterClass={letterClass}
               strArray={'Mikael Jonsson'.split('')}
               idx={25}
-            />
+            /> */}
           </h1>
-          <h2>Nånting här / Nåt mer här / Hitta på ytterligare?</h2>
+          <h2>PORTFOLIO - MIKAEL JONSSON</h2>
           <Link to='/contact' className='flat-button'>
             KONTAKT
           </Link>

@@ -48,8 +48,10 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Som ny i branchen håller man alla dörrar öppna så släng gärna iväg
-            ett meddelande i formuläret nedan så ser vi vad det leder till!
+            För tillfället är jag på jakt efter en praktikplats under perioden
+            2022-10-17 - 2023-03-17 för att kunna få fördjupa mig inom några av
+            de områden som jag utbildat mig inom. Hör gärna av er om ni har
+            några tips!
           </p>
           <div className='contact-form'>
             <form ref={form} onSubmit={sendEmail}>
