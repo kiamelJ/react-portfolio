@@ -49,7 +49,7 @@ const Contact = () => {
           </h1>
           <p>
             I mitten av april är jag färdig med min utbildning och jag söker
-            arbete främst inom frontend men allt är av intresse.
+            arbete främst inom frontend men allt är av intresse. TestTestTest
           </p>
           <div className='contact-form'>
             <form ref={form} onSubmit={sendEmail}>
