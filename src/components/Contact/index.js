@@ -48,10 +48,8 @@ const Contact = () => {
             />
           </h1>
           <p>
-            För tillfället är jag på jakt efter en praktikplats under perioden
-            2022-10-17 - 2023-03-17 för att kunna få fördjupa mig inom några av
-            de områden som jag utbildat mig inom. Hör gärna av er om ni har
-            några tips!
+            I mitten av april är jag färdig med min utbildning och jag söker
+            arbete främst inom frontend men allt är av intresse.
           </p>
           <div className='contact-form'>
             <form ref={form} onSubmit={sendEmail}>
