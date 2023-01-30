@@ -48,8 +48,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I mitten av april är jag klar med min utbildning och söker nu arbete
-            främst inom frontend men även backend och fullstack är av intresse.
+            Min utbildning till fullstack-utvecklare är klar i mitten av april
+            och jag söker arbete främst som webb- och apputvecklare men även
+            annat är av intresse.
           </p>
           <div className='contact-form'>
             <form ref={form} onSubmit={sendEmail}>
@@ -93,7 +94,7 @@ const Contact = () => {
           <br />
           Härbrevägen 42 <br />
           Örnsköldsvik <br />
-          <span>076-103 71 13</span>
+          <span>kiamel76@gmail.com</span>
         </div>
         <div className='map-wrap'>
           <MapContainer center={[63.31398, 18.76474]} zoom={13}>
